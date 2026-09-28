@@ -11,7 +11,8 @@
  * 3. At the bottom, add:
  *    #endif
  */
-
+#ifndef CODE_H 
+#define CODE_H
 /*
  * Find the maximum value in an array
  * Parameters: arr (pointer to array), n (number of elements)
@@ -57,3 +58,4 @@ double heron(double x, double epsilon);
 /*
  * Remember to add #endif at the end!
  */
+#endif
